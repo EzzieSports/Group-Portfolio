@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color:beige;
+    font-family: Arial, Helvetica, sans-serif;
+
+    .navBar{
+    color: gold;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+    border-bottom: 7px solid gold;
+
+        img{
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+        }
+}
+
+.navGroup{
+    display:flex;
+    gap: 25px;
+    
+        a{
+            color: white;
+            text-decoration: none;
+        }
+    
+}
+
+.heroSection{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    margin: 25px;
+    gap: 15px;
+
+        p{
+            margin: 15px;
+        }  
+        
+        .CTA{
+            font-style: italic;
+            color: gold;
+    
+        }
+}
+
+.footer{
+    color: white;
+    background-color: black;
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    border-top: 7px solid gold;
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+}
+  }
+
+
+
+
