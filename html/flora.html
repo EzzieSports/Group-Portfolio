@@ -7,6 +7,45 @@
     <link rel="stylesheet" href="/css/index.css" />
 
     <!--Add any additional styling of your page below this comment!-->
+    <style>
+      .main_div {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        margin-top: 45px;
+
+        .card {
+          background: white;
+          box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+          border-radius: 8px;
+          padding: 20px;
+          flex: 1;
+          max-width: 300px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+
+        img {
+          max-width: 100%;
+          border-radius: 6px;
+        }
+
+        h2 {
+          margin-top: 0;
+          margin-bottom: 10px;
+          text-align: center;
+          color: gold;
+        }
+
+        p {
+          text-align: center;
+          color: black;
+          margin-bottom: 10px;
+        }
+      }
+    </style>
+
   </head>
   <body class="main">
     <header>
@@ -30,7 +69,44 @@
       </div>
     </header>
     <!--Start to write your codes below this comment!-->
+<div class="main_div">
+      <div class="card">
+        <h2>Academic Background</h2>
+        <p>
+          My name is Florakariba Nyagiro. I completed my primary education at
+          Michael Mausa Memorial School. I completed my secondary education at Marian Girls' High
+          School and my A-Level education at Marian Girls' High
+          School. I'm
+          currently pursuing my bachelor degree in Computer Engineering at the
+          University of Dar es Salaam.
+        </p>
 
+        <h2>Skills</h2>
+        <p>
+          1. Web Development using WordPress, laravel <br />
+          2. Docker basics.
+        </p>
+      </div>
+      <div class="card">
+        <h2>Projects</h2>
+        <p>
+          1. Dynamic portfolio website using laravel framework. <br />
+          2. Bakery website using WordPress and docker.
+          <br />
+          3. Mobile application: LISHE App
+        </p>
+
+        <h2>Contacts</h2>
+        <p>
+          Phone: 0769627604 <br />
+          Email: florakaribaobadiah@gmail.com <br />
+          Instagram: fko._ok
+        </p>
+      </div>
+      <div class="card">
+        <img src="/images/flora.jpg" alt="My Picture" />
+      </div>
+    </div>
     <!--Above this comment is the end of your code-->
     <footer>
       <div class="footer">
