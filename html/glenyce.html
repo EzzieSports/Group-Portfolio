@@ -1,3 +1,4 @@
+<!--In here, there are concepts of images, videos, anchor elements, styling, and lists-->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -7,6 +8,44 @@
     <link rel="stylesheet" href="/css/index.css" />
 
     <!--Add any additional styling of your page below this comment!-->
+    <style>
+      .main_div {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        margin-top: 45px;
+
+        .card {
+          background: white;
+          box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+          border-radius: 8px;
+          padding: 20px;
+          flex: 1;
+          max-width: 300px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+
+        img {
+          max-width: 100%;
+          border-radius: 6px;
+        }
+
+        h2 {
+          margin-top: 0;
+          margin-bottom: 10px;
+          text-align: center;
+          color: gold;
+        }
+
+        p {
+          text-align: center;
+          color: black;
+          margin-bottom: 10px;
+        }
+      }
+    </style>
   </head>
   <body class="main">
     <header>
@@ -30,6 +69,43 @@
       </div>
     </header>
     <!--Start to write your codes below this comment!-->
+    <div class="main_div">
+      <div class="card">
+        <h2>Academic Background</h2>
+        <p>
+          My name is Glenyce Amani Mwakalapuka. I completed my primary education in
+          Yakini Primary School. I completed my secondary education in Notre Dame Secondary school and my A-Level education in Arusha science School. Im
+          currently pursuing my bachelor degree in Computer Engineering in
+          University of Dar es Salaam.
+        </p>
+
+        <h2>Skills</h2>
+        <p>
+          1.AI agent Development<br />
+          2. Graphics Design <br />
+          3. Database Design and Management
+        </p>
+      </div>
+      <div class="card">
+        <h2>Projects</h2>
+        <p>
+          1. Developed an AI Desktop Security Assistant.<br />
+          2. Designed posters, banners, and fliers for NM-AIST. <br />
+          3. Matchmaking Algorithm Prototype.
+        </p>
+        <br />
+        <br />
+        <h2>Contacts</h2>
+        <p>
+          Phone: 0629 452 115<br />
+          Email: gmwaky@protonmail.com <br />
+          Instagram: mk_2_.5
+        </p>
+      </div>
+      <div class="card">
+        <img src="/images/glenyce.jpeg" alt="My Picture" />
+      </div>
+    </div>
 
     <!--Above this comment is the end of your code-->
     <footer>
