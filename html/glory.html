@@ -7,6 +7,48 @@
     <link rel="stylesheet" href="/css/index.css" />
 
     <!--Add any additional styling of your page below this comment!-->
+
+    <style>
+      .main_div {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        margin-top: 45px;
+
+        .card {
+          background: white;
+          box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+          border-radius: 8px;
+          padding: 20px;
+          flex: 1;
+          max-width: 300px;
+          max-height: 400px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+
+        img {
+          max-width: 100%;
+          border-radius: 6px;
+          height: 400px;
+          border-image: fill;
+        }
+
+        h2 {
+          margin-top: 0;
+          margin-bottom: 10px;
+          text-align: center;
+          color: gold;
+        }
+
+        p {
+          text-align: center;
+          color: black;
+          margin-bottom: 10px;
+        }
+      }
+    </style>
   </head>
   <body class="main">
     <header>
@@ -30,6 +72,43 @@
       </div>
     </header>
     <!--Start to write your codes below this comment!-->
+
+      <div class="main_div">
+      <div class="card">
+        <h2>Academic Background</h2>
+        <p>
+          My name is Glory Justin Kahulo. I completed my primary education in
+          Sir John Primary School. I completed my secondary education in St. Christina Girls' Secondary school and 
+          my A-Level education in Mazinde Juu High School. 
+          Im currently pursuing my bachelor degree in Computer Engineering in
+          University of Dar es Salaam.
+        </p>
+
+        <h2>Skills</h2>
+        <p>
+          1. IoT Concepts <br />
+          2. Graphics Designing <br />
+          3. Mandarin Chinese
+        </p>
+      </div>
+      <div class="card">
+        <h2>Projects</h2>
+        <p>
+          1. Worked as a graphic designer for JEOPA Staionery for 1 year. <br />
+          2. Led the Chinese Learning Campaign in Tanzania.
+        </p>
+
+        <h2>Contacts</h2>
+        <p>
+          Phone: 0746 419 989 <br />
+          Email: glorykahulo04@gmail.com <br />
+          Instagram: gloryjustinkaulo
+        </p>
+      </div>
+      <div class="card">
+        <img src="/images/Glory.jpg" alt="My Picture" />
+      </div>
+    </div>
 
     <!--Above this comment is the end of your code-->
     <footer>
