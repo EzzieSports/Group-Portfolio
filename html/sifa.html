@@ -7,6 +7,45 @@
     <link rel="stylesheet" href="/css/index.css" />
 
     <!--Add any additional styling of your page below this comment!-->
+<style>
+      .main_div {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        margin-top: 45px;
+
+        .card {
+          background: white;
+          box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+          border-radius: 8px;
+          padding: 20px;
+          flex: 1;
+          max-width: 300px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+
+        img {
+          max-width: 100%;
+          border-radius: 6px;
+        }
+
+        h2 {
+          margin-top: 0;
+          margin-bottom: 10px;
+          text-align: center;
+          color: gold;
+        }
+
+        p {
+          text-align: center;
+          color: black;
+          margin-bottom: 10px;
+        }
+      }
+    </style>
+
   </head>
   <body class="main">
     <header>
@@ -30,7 +69,45 @@
       </div>
     </header>
     <!--Start to write your codes below this comment!-->
+      <div class="main_div">
+      <div class="card">
+        <h2>Academic Background</h2>
+        <p>
+          My name is Sifa Obedi Kamendu. I completed my primary education in
+          Shalom Pre and Primary School. I completed my secondary education in Jangwani
+          Girls' Secondary school and my A-Level education in Msalato Girls' Secondary School.
+          Currently, I'm pursuing my bachelor degree in Science of Computer Engineering and Information Technology in
+          University of Dar es Salaam.
+        </p>
 
+        <h2>Skills</h2>
+        <p>
+          1. UI/UX Design <br />
+          2. Frontend Development <br />
+          3. Training of AI models
+          4. Mobile App Development 
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>Projects</h2>
+        <p>
+          1. Designined and implemented Hotel Booking Mobile App using Flutter <br />
+          2. Trained an AI model for transactions and food <br />
+          3. Implemented an Income Tracking website using Vue.js.
+        </p>
+
+        <h2>Contacts</h2>
+        <p>
+          Phone: 0684 314 402 <br />
+          Email: sifakamendu8@gmail.com <br />
+          Instagram: aise_0023
+        </p>
+      </div>
+      <div class="card">
+        <img src="/images/sifa.jpeg" alt="My Picture" />
+      </div>
+    </div>
     <!--Above this comment is the end of your code-->
     <footer>
       <div class="footer">
