@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -7,7 +7,47 @@
     <link rel="stylesheet" href="/css/index.css" />
 
     <!--Add any additional styling of your page below this comment!-->
+    <style>
+      .main_div {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        margin-top: 45px;
+        flex-wrap: wrap;
+      }
+
+      .card {
+        background: white;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+        border-radius: 8px;
+        padding: 20px;
+        flex: 1;
+        max-width: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .card img {
+        max-width: 100%;
+        border-radius: 6px;
+      }
+
+      h2 {
+        margin-top: 0;
+        margin-bottom: 10px;
+        text-align: center;
+        color: gold;
+      }
+
+      p {
+        text-align: center;
+        color: black;
+        margin-bottom: 10px;
+      }
+    </style>
   </head>
+
   <body class="main">
     <header>
       <div class="navBar">
@@ -29,9 +69,52 @@
         </div>
       </div>
     </header>
+
     <!--Start to write your codes below this comment!-->
 
+    <div class="main_div">
+      <div class="card">
+        <h2>Academic Background</h2>
+        <p>
+          My name is Charles Kileng’a. I am currently pursuing a Bachelor’s degree in
+          Computer Engineering and Information Technology at the University of Dar es Salaam.
+          I have a strong interest in software development, web technologies, system design,
+          and creative digital design.
+        </p>
+
+        <h2>Skills</h2>
+        <p>
+          1. HTML, CSS, JavaScript <br />
+          2. Frontend Development <br />
+          3. UI/UX Design <br />
+          4. Poster & Graphic Design <br />
+          5. Git & GitHub collaboration
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>Projects</h2>
+        <p>
+          1. Designed posters, banners, and event flyers <br />
+          2. Frontend for identity verification system <br />
+          3. Group web application project
+        </p>
+
+        <h2>Contacts</h2>
+        <p>
+          Email: charlesfurahi@gmail.com <br />
+          GitHub: github.com/charlefurahi <br />
+          Phone: +255 755794664
+        </p>
+      </div>
+
+      <div class="card">
+        <img src="/images/charles.jpg" alt="My Picture" />
+      </div>
+    </div>
+
     <!--Above this comment is the end of your code-->
+
     <footer>
       <div class="footer">
         <p>&copy; 2025 Group 1 | Software Engineering</p>
